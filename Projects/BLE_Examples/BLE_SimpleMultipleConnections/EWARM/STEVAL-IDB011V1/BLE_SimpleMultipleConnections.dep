@@ -1,0 +1,2701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>2005717428</fileChecksum>
+    <configuration>
+        <name>MasterSlave</name>
+        <outputs>
+            <file>$PROJ_DIR$\MasterSlave\Obj\gp_timer.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Src\nvm_db.c</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\nvm_db_conf.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\fifo.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Src\nvm_db_upper_layer.c</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\fifo.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\bluenrg_lp_evb_i2c.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\gap_profile.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\osal.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Src\gap_profile.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\gp_timer.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\miscutil.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\fifo.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Src\nvm_db_conf.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_hal_vtimer.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Src\gatt_profile.c</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_mic.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_led.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\nvm_db.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_i2c.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\miscutil.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_i2c.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\profile_client_server.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_pwr.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\hal_miscutil.c</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_spi.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_spi.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\miscutil.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_pka.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\asm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Include\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\gatt_profile.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\osal.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\clock.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_hal.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\hal_miscutil.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\profile_client_server.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_io.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_hal_power_manager.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\steval_idb011V1_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\Common\Inc\bluenrg_lp_evb_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\ble_const.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_pwr.h</file>
+            <file>$PROJ_DIR$\..\..\Inc\bluenrg_lp_it.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\gp_timer.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_button.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_exti.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\bluenrg_lp_evb_mic.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\bluenrg_lp_evb_com.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_events.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_usart.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\BlueNRG_LP.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\BLE_SimpleMultipleConnections.pbd</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\system_BlueNRG_LP.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_usart.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_i2c.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\stack_user_cfg.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_exti.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_utils.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_lpuart.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_dma.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_flash.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\system_BlueNRG_LP.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_lpuart.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_adc.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_flash.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_it.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_gpio.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\clock.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_utils.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\gatt_db.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_usart.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_pka.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_hal_power_manager.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\context_switch.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_gpio.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_flash.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\lsm6dsox_reg.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_hal_vtimer.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_rtc.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\osal.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\nvm_db_upper_layer.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_dma.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_tim.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_adc.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\lsm6dsox_reg.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\profile_client_server.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\gatt_profile.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_rng.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_radio.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_crc.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_lpuart.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_i2c.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\lps22hh_reg.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_timer.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_i2c.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\gp_timer.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\nvm_db_upper_layer.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\osal.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\fifo.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_tim.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\hal_miscutil.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\gap_profile.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_crc.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\procedures.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\procedures.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\clock.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\nvm_db.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\gatt_db.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Exe\BLE_Simplemultipleconnections_MasterSlave.hex</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_hal_power_manager.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\BLE_SimpleMultipleConnections_main.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_rcc.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_pwr.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_rtc.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_rng.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_spi.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_timer.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\BLE_SimpleMultipleConnections_main.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_rcc.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\nvm_db.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\miscutil.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Exe\BLE_SimpleMultipleConnections_MasterSlave.out</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\stack_user_cfg.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\nvm_db_conf.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_com.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_io.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_mic.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Source\system_BlueNRG_LP.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_hal_power_manager.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_led.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_button.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_hal_vtimer.c</file>
+            <file>$PROJ_DIR$\..\..\Src\procedures.c</file>
+            <file>$PROJ_DIR$\..\..\Src\profile_client_server.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_crc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\cryptolib\libcrypto.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_adc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\blue_unit_conversion.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\clock.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\context_switch.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_utils.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_radio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Library\libbluenrg_lp_stack.a</file>
+            <file>$PROJ_DIR$\..\..\Src\bluenrg_lp_it.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_exti.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_pwr.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_rcc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_dma.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_timer.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Src\stack_user_cfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_rng.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_tim.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_lpuart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_rtc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_pka.c</file>
+            <file>$PROJ_DIR$\..\..\Src\BLE_SimpleMultipleConnections_main.c</file>
+            <file>$PROJ_DIR$\..\..\Src\gatt_db.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\bluenrg_lp_evb_io.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_crc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_usart.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_radio.h</file>
+            <file>$PROJ_DIR$\..\..\Inc\procedures.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_flash.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\MasterSlave\List\BLE_SimpleMultipleConnections_MasterSlave.map</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_rtc.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\Inc\MultipleConnections_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_tim.h</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc\gatt_profile.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_dmamux.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\sm.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_rng.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_lpuart.h</file>
+            <file>$PROJ_DIR$\..\..\Inc\gatt_db.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_dma.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gatt_server.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_hal_vtimer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\clock.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_hal_power_manager.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_timer.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\fifo.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\link_layer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gap.h</file>
+            <file>$PROJ_DIR$\..\..\Inc\profile.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_spi.xcl</file>
+            <file>$PROJ_DIR$\..\..\Inc\app_state.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\bluenrg_lp_evb_led.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\bluenrg_lp_evb_spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_bus.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\stack_user_cfg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_system.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_l2cap.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bleplat.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\LowLevelIOInterface.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\bluenrg_lp_evb_button.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_stack.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Include\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_it.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\hal_miscutil.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_exti.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\stack_user_cfg.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_mic.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\hal_miscutil.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\gatt_profile.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_com.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\nvm_db_conf.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_io.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\lsm6dsox_reg.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Inc\nvm_db.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_spi.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_i2c.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_led.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_radio.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_dma.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_rng.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_rcc.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\gap_profile.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\blue_unit_conversion.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\nvm_db_upper_layer.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\system_BlueNRG_LP.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\lps22hh_reg.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\crash_handler.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_rcc.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_adc.xcl</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_button.o</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\procedures.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_com.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\BlueNRG_LP.icf</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_utils.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_radio.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\gp_timer.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_mic.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc\gap_profile.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_pwr.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\osal.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\gatt_db.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_cortex.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_tim.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_it.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_led.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_hal_vtimer.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_i2c.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_utils.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_io.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_com.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_crc.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\BLE_SimpleMultipleConnections_main.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_pka.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_spi.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\lps22hh_reg.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_timer.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Inc\nvm_db_conf.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_rtc.h</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_button.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_pka.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_evb_spi.__cstat.et</file>
+            <file>$PROJ_DIR$\MasterSlave\Obj\bluenrg_lp_ll_exti.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\miscutil.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 130 185</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Src\nvm_db.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 197 9 223 209 219 16 235 193 211 23 58 206 35 44 233 231 17 6 246 293 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Src\nvm_db_upper_layer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 259</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 197 9 223 209 219 16 235 193 182 58 206 23 35 44 233 231 17 6 200 207 180 211 204 48 246 293 227 230 55 205 176 56 213</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\osal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 197 9 223 209 219 16 235 193 276</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Src\gap_profile.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 256</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 274 17 6 23 9 223 209 219 16 55 205 176 197 235 193 276 215 213</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\gp_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 0</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 203 58 206 23 9 223 209 219 16 35 44 233 231 17 6 272</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\miscutil.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 225 58 206 23 9 223 209 219 16 35 44 233 231 17 6 270 211 222 300 234 262 197 235 193 227</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\fifo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 212 23 9 223 209 219 16 276</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Src\nvm_db_conf.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 243</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 293 23 9 223 209 219 16 211 58 206 35 44 233 231 17 6 182 184 235 237</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Src\gatt_profile.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 241</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 190 23 9 223 209 219 16 17 6 55 205 176 197 235 193 276</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\hal_miscutil.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 240</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 225 58 206 23 9 223 209 219 16 35 44 233 231 17 6 270 211 234 262 197 235 193 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MasterSlave\Exe\BLE_SimpleMultipleConnections_MasterSlave.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 185</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 269 119 257 265 267 248 244 249 239 247 118 86 74 72 111 68 64 69 75 100 71 80 121 97 127 123 87 124 91 102 79 65 76 82 107 8 78 36 104 109 158 151 261 245 25 115 2 89 88 113 94 63 260 268 253 189 258</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_com.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 267</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 286</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202 9 223 209 219 16 235 54 46 211 23 58 206 35 44 233 231 17 6 45 222 236 201 48 61 24 31 220 229 7 221 53 175 183 210 208 214 254 228</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_io.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 285</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 175 46 211 23 9 223 209 219 16 58 206 35 44 233 231 17 6 45 222 236 201 48 61 24 31 220 229 7 221 54 202 235 53 183 210 208 214</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_mic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 239</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 273</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53 46 211 23 9 223 209 219 16 58 206 35 44 233 231 17 6 45 222 236 201 48 61 24 31 220 229 7 221 54 202 235 175 183 210 208 214</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 261</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 291</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214 23 9 223 209 219 16 210 208</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 247</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 297</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 221 46 211 23 9 223 209 219 16 58 206 35 44 233 231 17 6 45 222 236 201 48 61 24 31 220 229 7 54 202 235 53 175 183 210 208 214</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 183 23 9 223 209 219 16 210 208</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Source\system_BlueNRG_LP.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 260</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 206 23 9 223 209 219 16 35 44 233 231 17 6 211 263 48 182 222 225</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_hal_power_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 184 9 223 209 219 16 235 237 197 193 211 23 58 206 35 44 233 231 17 6 222 263 225 204 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 248</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 283</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7 46 211 23 9 223 209 219 16 58 206 35 44 233 231 17 6 45 222 236 201 48 61 24 31 220 229 221 54 202 235 53 175 183 210 208 214</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_led.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 249</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 281</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 220 46 211 23 9 223 209 219 16 58 206 35 44 233 231 17 6 45 222 236 201 48 61 24 31 229 7 221 54 202 235 53 175 183 210 208 214</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_button.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 265</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 295</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 229 46 211 23 9 223 209 219 16 58 206 35 44 233 231 17 6 45 222 236 201 48 61 24 31 220 7 221 54 202 235 53 175 183 210 208 214</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_hal_vtimer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 282</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 178 9 223 209 219 16 235 202 200 23 207 58 206 35 44 233 231 17 6 180 211 204 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Src\procedures.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 266</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202 9 223 209 219 16 235 197 193 272 203 58 206 23 35 44 233 231 17 6 47 55 39 215 213 199 226 192 230 205 176 56 218 276 196 216 200 207 180 211 204 48 54 46 45 222 236 201 61 24 31 220 229 7 221 53 175 183 210 208 214 181</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Src\profile_client_server.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202 9 223 209 219 16 235 197 193 272 203 58 206 23 35 44 233 231 17 6 47 55 39 215 213 199 226 192 230 205 176 56 218 276 196 216 200 207 180 211 204 48 54 46 45 222 236 201 61 24 31 220 229 7 221 53 175 183 210 208 214 181 274</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 287</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 177 58 206 23 9 223 209 219 16 35 44 233 231 17 6 222</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 179</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61 58 206 23 9 223 209 219 16 35 44 233 231 17 6 263 222</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 201 58 206 23 9 223 209 219 16 35 44 233 231 17 6 48 222</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 217</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 290</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 58 206 23 9 223 209 219 16 35 44 233 231 17 6 222 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 264</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 299 58 206 23 9 223 209 219 16 35 44 233 231 17 6 222</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\blue_unit_conversion.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 257</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 206 23 9 223 209 219 16 35 44 233 231 17 6 203 211 270 263</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\context_switch.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_utils.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 284</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 270 58 206 23 9 223 209 219 16 35 44 233 231 17 6 211 263 225 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_radio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 250</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 271</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 200 23 9 223 209 219 16 207 58 206 35 44 233 231 17 6 180 211 204 48 276</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Src\bluenrg_lp_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 232</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 280</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49 58 206 23 9 223 209 219 16 35 44 233 231 17 6 47 55 39 215 213 199 226 192 230 205 176 56 54 46 211 45 222 236 201 48 61 24 31 220 229 7 221 53 175 183 210 208 214 202 235 203 234 262 197 193 200 207 180 204</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 298</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 236 58 206 23 9 223 209 219 16 35 44 233 231 17 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24 58 206 23 9 223 209 219 16 35 44 233 231 17 6 222</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 275</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48 58 206 23 9 223 209 219 16 35 44 233 231 17 6 222</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 255</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 263 58 206 23 9 223 209 219 16 35 44 233 231 17 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 198</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 251 58 206 23 9 223 209 219 16 35 44 233 231 17 6 191 222</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 292</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207 58 206 23 9 223 209 219 16 35 44 233 231 17 6 180 211</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Src\stack_user_cfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 238</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 224 205 176 55 23 9 223 209 219 16 17 6</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_rng.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 194</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 252 58 206 23 9 223 209 219 16 35 44 233 231 17 6 222</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 279</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 188 58 206 23 9 223 209 219 16 35 44 233 231 17 6 222</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_lpuart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 195 58 206 23 9 223 209 219 16 35 44 233 231 17 6 263 222</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 186</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 294 58 206 23 9 223 209 219 16 35 44 233 231 17 6 278</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 225 58 206 23 9 223 209 219 16 35 44 233 231 17 6 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_pka.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 296</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 289 58 206 23 9 223 209 219 16 35 44 233 231 17 6 222</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Src\BLE_SimpleMultipleConnections_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 288</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202 9 223 209 219 16 235 197 193 49 58 206 23 35 44 233 231 17 6 47 55 39 215 213 199 226 192 230 205 176 56 218 216 187 224 46 211 45 222 236 201 48 61 24 31 220 229 7 221 54 53 175 183 210 208 214 200 207 180 204 227 246</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Src\gatt_db.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 277</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202 9 223 209 219 16 235 197 193 47 55 23 39 215 213 199 6 226 192 230 205 176 56 276 218 216 196 187 224 17</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Slave</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Src\nvm_db.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Src\nvm_db_upper_layer.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\bluenrg_lp_evb_i2c.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\osal.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Src\gap_profile.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\gp_timer.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\miscutil.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\fifo.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Src\nvm_db_conf.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Src\gatt_profile.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\hal_miscutil.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\asm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Include\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_hal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\steval_idb011V1_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\Common\Inc\bluenrg_lp_evb_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\ble_const.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_pwr.h</file>
+            <file>$PROJ_DIR$\..\..\Inc\bluenrg_lp_it.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\bluenrg_lp_evb_mic.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\bluenrg_lp_evb_com.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_events.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\BlueNRG_LP.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_usart.h</file>
+            <file>$PROJ_DIR$\Slave\Obj\miscutil.o</file>
+            <file>$PROJ_DIR$\Slave\List\BLE_SimpleMultipleConnections_Slave.map</file>
+            <file>$PROJ_DIR$\Slave\Obj\osal.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_evb_spi.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_dma.xcl</file>
+            <file>$PROJ_DIR$\Slave\Exe\BLE_SimpleMultipleConnections_Slave.out</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_hal_power_manager.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\nvm_db_upper_layer.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_evb_mic.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_gpio.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_flash.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\blue_unit_conversion.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\gap_profile.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\nvm_db_upper_layer.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\nvm_db.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_rng.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_adc.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\lsm6dsox_reg.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_lpuart.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\lps22hh_reg.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\context_switch.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\gap_profile.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\procedures.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_hal_vtimer.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_tim.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_pka.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\gp_timer.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\fifo.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_evb_io.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\gatt_profile.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\system_BlueNRG_LP.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\stack_user_cfg.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\gatt_db.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\nvm_db_conf.xcl</file>
+            <file>$PROJ_DIR$\Slave\Exe\BLE_SimpleMultipleConnections_Slave.hex</file>
+            <file>$PROJ_DIR$\Slave\Obj\hal_miscutil.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_utils.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\hal_miscutil.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_utils.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\gatt_profile.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\clock.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_it.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_evb_button.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\BLE_SimpleMultipleConnections.pbd</file>
+            <file>$PROJ_DIR$\Slave\Obj\gp_timer.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_exti.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_evb_i2c.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_evb_led.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\BLE_SimpleMultipleConnections_main.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\procedures.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\profile_client_server.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_evb_com.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\miscutil.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_crc.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_usart.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_spi.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_timer.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\nvm_db.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_radio.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\nvm_db_conf.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_i2c.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\osal.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_crc.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_rcc.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_pwr.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\system_BlueNRG_LP.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_hal_vtimer.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_evb_spi.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_i2c.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_pwr.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_lpuart.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\lps22hh_reg.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_tim.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_radio.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_rtc.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_flash.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_hal_power_manager.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\BLE_SimpleMultipleConnections_main.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_pka.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_exti.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_dma.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\stack_user_cfg.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_rcc.xcl</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_timer.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_gpio.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\fifo.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\clock.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_it.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\gatt_db.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_adc.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_usart.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_evb_button.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\lsm6dsox_reg.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_evb_io.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_evb_led.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_rng.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\profile_client_server.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_evb_mic.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_evb_com.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_rtc.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_ll_spi.o</file>
+            <file>$PROJ_DIR$\Slave\Obj\bluenrg_lp_evb_i2c.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_com.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_io.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_mic.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Source\system_BlueNRG_LP.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_hal_power_manager.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_led.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_button.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_hal_vtimer.c</file>
+            <file>$PROJ_DIR$\..\..\Src\procedures.c</file>
+            <file>$PROJ_DIR$\..\..\Src\profile_client_server.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_crc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\cryptolib\libcrypto.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_adc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\blue_unit_conversion.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\clock.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\context_switch.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_utils.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_radio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Library\libbluenrg_lp_stack.a</file>
+            <file>$PROJ_DIR$\..\..\Src\bluenrg_lp_it.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_exti.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_pwr.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_rcc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_dma.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_timer.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Src\stack_user_cfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_rng.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_tim.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_lpuart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_rtc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_pka.c</file>
+            <file>$PROJ_DIR$\..\..\Src\BLE_SimpleMultipleConnections_main.c</file>
+            <file>$PROJ_DIR$\..\..\Src\gatt_db.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\bluenrg_lp_evb_io.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_crc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_radio.h</file>
+            <file>$PROJ_DIR$\..\..\Inc\procedures.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_flash.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\Inc\MultipleConnections_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_tim.h</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc\gatt_profile.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_dmamux.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\sm.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_lpuart.h</file>
+            <file>$PROJ_DIR$\..\..\Inc\gatt_db.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gatt_server.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_hal_vtimer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\clock.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_hal_power_manager.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_timer.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\fifo.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\link_layer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gap.h</file>
+            <file>$PROJ_DIR$\..\..\Inc\profile.h</file>
+            <file>$PROJ_DIR$\..\..\Inc\app_state.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\bluenrg_lp_evb_led.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\bluenrg_lp_evb_spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_bus.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\stack_user_cfg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_system.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_l2cap.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bleplat.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\LowLevelIOInterface.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Inc\bluenrg_lp_evb_button.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_stack.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Include\core_cmFunc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\hal_miscutil.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_exti.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Inc\nvm_db.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_dma.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_rng.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\crash_handler.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_rcc.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\BlueNRG_LP.icf</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_utils.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\gp_timer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc\gap_profile.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\osal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_cortex.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_pka.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Inc\nvm_db_conf.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\bluenrg_lp_ll_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Inc\miscutil.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 38 34</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Src\nvm_db.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 195 4 219 206 215 11 230 192 208 14 31 203 19 21 228 227 12 2 233 249 183</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Src\nvm_db_upper_layer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 195 4 219 206 215 11 230 192 183 31 203 14 19 21 228 227 12 2 197 204 181 208 201 25 233 249 223 226 29 202 178 30 210</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\osal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 195 4 219 206 215 11 230 192 246</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Src\gap_profile.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245 12 2 14 4 219 206 215 11 29 202 178 195 230 192 246 212 210</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\gp_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 200 31 203 14 4 219 206 215 11 19 21 228 227 12 2 244</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\miscutil.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 221 31 203 14 4 219 206 215 11 19 21 228 227 12 2 243 208 218 252 229 239 195 230 192 223</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\fifo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 209 14 4 219 206 215 11 246</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\NVMDB\Src\nvm_db_conf.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 249 14 4 219 206 215 11 208 31 203 19 21 228 227 12 2 183 185 230 232</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Src\gatt_profile.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 189 14 4 219 206 215 11 12 2 29 202 178 195 230 192 246</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\hal_miscutil.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 221 31 203 14 4 219 206 215 11 19 21 228 227 12 2 243 208 229 239 195 230 192 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Slave\Exe\BLE_SimpleMultipleConnections_Slave.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 242 110 44 124 131 134 126 127 130 100 109 99 120 122 95 113 112 108 117 101 103 111 102 106 96 128 132 133 105 116 123 71 119 53 118 45 121 62 59 68 160 153 104 125 33 90 92 40 94 55 129 114 98 241 236 188 238</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_com.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 199 4 219 206 215 11 230 28 23 208 14 31 203 19 21 228 227 12 2 22 218 231 198 25 32 15 17 216 225 3 217 27 177 184 207 205 211 237 224</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_io.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 177 23 208 14 4 219 206 215 11 31 203 19 21 228 227 12 2 22 218 231 198 25 32 15 17 216 225 3 217 28 199 230 27 184 207 205 211</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_mic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27 23 208 14 4 219 206 215 11 31 203 19 21 228 227 12 2 22 218 231 198 25 32 15 17 216 225 3 217 28 199 230 177 184 207 205 211</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 211 14 4 219 206 215 11 207 205</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 217 23 208 14 4 219 206 215 11 31 203 19 21 228 227 12 2 22 218 231 198 25 32 15 17 216 225 3 28 199 230 27 177 184 207 205 211</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 184 14 4 219 206 215 11 207 205</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Source\system_BlueNRG_LP.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 203 14 4 219 206 215 11 19 21 228 227 12 2 208 240 25 183 218 221</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_hal_power_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 185 4 219 206 215 11 230 232 195 192 208 14 31 203 19 21 228 227 12 2 218 240 221 201 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 134</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3 23 208 14 4 219 206 215 11 31 203 19 21 228 227 12 2 22 218 231 198 25 32 15 17 216 225 217 28 199 230 27 177 184 207 205 211</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_led.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 216 23 208 14 4 219 206 215 11 31 203 19 21 228 227 12 2 22 218 231 198 25 32 15 17 225 3 217 28 199 230 27 177 184 207 205 211</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\BSP\STEVAL-IDB011V1\Src\bluenrg_lp_evb_button.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 225 23 208 14 4 219 206 215 11 31 203 19 21 228 227 12 2 22 218 231 198 25 32 15 17 216 3 217 28 199 230 27 177 184 207 205 211</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_hal_vtimer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 180 4 219 206 215 11 230 199 197 14 204 31 203 19 21 228 227 12 2 181 208 201 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Src\procedures.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 199 4 219 206 215 11 230 195 192 244 200 31 203 14 19 21 228 227 12 2 24 29 20 212 210 196 222 191 226 202 178 30 214 246 194 213 197 204 181 208 201 25 28 23 22 218 231 198 32 15 17 216 225 3 217 27 177 184 207 205 211 182</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Src\profile_client_server.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 199 4 219 206 215 11 230 195 192 244 200 31 203 14 19 21 228 227 12 2 24 29 20 212 210 196 222 191 226 202 178 30 214 246 194 213 197 204 181 208 201 25 28 23 22 218 231 198 32 15 17 216 225 3 217 27 177 184 207 205 211 182 245</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 179 31 203 14 4 219 206 215 11 19 21 228 227 12 2 218</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32 31 203 14 4 219 206 215 11 19 21 228 227 12 2 240 218</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 198 31 203 14 4 219 206 215 11 19 21 228 227 12 2 25 218</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17 31 203 14 4 219 206 215 11 19 21 228 227 12 2 218 240</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 251 31 203 14 4 219 206 215 11 19 21 228 227 12 2 218</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\blue_unit_conversion.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 203 14 4 219 206 215 11 19 21 228 227 12 2 200 208 243 240</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\hal\Src\context_switch.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_utils.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 243 31 203 14 4 219 206 215 11 19 21 228 227 12 2 208 240 221 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_radio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 197 14 4 219 206 215 11 204 31 203 19 21 228 227 12 2 181 208 201 25 246</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Src\bluenrg_lp_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 31 203 14 4 219 206 215 11 19 21 228 227 12 2 24 29 20 212 210 196 222 191 226 202 178 30 28 23 208 22 218 231 198 25 32 15 17 216 225 3 217 27 177 184 207 205 211 199 230 200 229 239 195 192 197 204 181 201</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 231 31 203 14 4 219 206 215 11 19 21 228 227 12 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15 31 203 14 4 219 206 215 11 19 21 228 227 12 2 218</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25 31 203 14 4 219 206 215 11 19 21 228 227 12 2 218</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 240 31 203 14 4 219 206 215 11 19 21 228 227 12 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 234 31 203 14 4 219 206 215 11 19 21 228 227 12 2 190 218</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 204 31 203 14 4 219 206 215 11 19 21 228 227 12 2 181 208</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Src\stack_user_cfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 220 202 178 29 14 4 219 206 215 11 12 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_rng.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 235 31 203 14 4 219 206 215 11 19 21 228 227 12 2 218</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 187 31 203 14 4 219 206 215 11 19 21 228 227 12 2 218</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_lpuart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 193 31 203 14 4 219 206 215 11 19 21 228 227 12 2 240 218</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 250 31 203 14 4 219 206 215 11 19 21 228 227 12 2 247</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 221 31 203 14 4 219 206 215 11 19 21 228 227 12 2 183</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Drivers\Peripherals_Drivers\Src\bluenrg_lp_ll_pka.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 248 31 203 14 4 219 206 215 11 19 21 228 227 12 2 218</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Src\BLE_SimpleMultipleConnections_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 199 4 219 206 215 11 230 195 192 26 31 203 14 19 21 228 227 12 2 24 29 20 212 210 196 222 191 226 202 178 30 214 213 186 220 23 208 22 218 231 198 25 32 15 17 216 225 3 217 28 27 177 184 207 205 211 197 204 181 201 223 233</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Src\gatt_db.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 199 4 219 206 215 11 230 195 192 24 29 14 20 212 210 196 2 222 191 226 202 178 30 246 214 213 194 186 220 12</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+</project>
